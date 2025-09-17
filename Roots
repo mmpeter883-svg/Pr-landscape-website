@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PR Landscapes & Decorating</title>
+  <meta name="description" content="PR Landscapes & Decorating — landscaping and decorating services." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <!-- Replace logo.png with your logo file (see instructions below) -->
+        <img src="logo.png" alt="PR Landscapes & Decorating logo" class="logo" />
+        <div class="brand-text">
+          <h1>PR Landscapes & Decorating</h1>
+          <p class="tag">Landscaping • Decorating • Home Refresh</p>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a class="cta" href="#contact">Get a Quote</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h2>We bring gardens & interiors to life</h2>
+          <p>Playful, professional landscaping and decorating — tailored to your home.</p>
+          <a class="btn" href="#contact">Request a free quote</a>
+        </div>
+        <div class="hero-art">
+          <!-- decorative illustration placeholder -->
+          <div class="leaf-roller">
+            <div class="leaf"></div>
+            <div class="roller"></div>
+            <div class="splatter"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section services">
+      <div class="container">
+        <h3>Our Services</h3>
+        <div class="cards">
+          <article class="card">
+            <h4>Garden design & maintenance</h4>
+            <p>Planting, turf, borders, seasonal care and garden makeovers.</p>
+          </article>
+          <article class="card">
+            <h4>Exterior hardscaping</h4>
+            <p>Patios, pathways, edging and outdoor living features.</p>
+          </article>
+          <article class="card">
+            <h4>Interior decorating</h4>
+            <p>Painting, colour consultations, wallpaper, and small refurbs.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section gallery">
+      <div class="container">
+        <h3>Before & After</h3>
+        <div class="grid">
+          <div class="img placeholder">Image 1</div>
+          <div class="img placeholder">Image 2</div>
+          <div class="img placeholder">Image 3</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container">
+        <h3>About PR Landscapes & Decorating</h3>
+        <p>Local, friendly, and detail-oriented. We combine landscaping expertise with decorating flair to create beautiful, usable spaces.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container contact-inner">
+        <div class="contact-form">
+          <h3>Get a free quote</h3>
+          <form id="quoteForm">
+            <label>
+              Name
+              <input type="text" name="name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" required />
+            </label>
+            <label>
+              Phone
+              <input type="tel" name="phone" />
+            </label>
+            <label>
+              Brief details
+              <textarea name="message" rows="4" required></textarea>
+            </label>
+            <button type="submit" class="btn primary">Send request</button>
+            <p class="form-note">Or call: <strong>01234 567890</strong></p>
+          </form>
+        </div>
+        <div class="contact-info">
+          <h4>Services in:</h4>
+          <p>Local area — call for availability & free site visit.</p>
+          <div class="hours">
+            <strong>Hours</strong>
+            <p>Mon–Sat: 8am–6pm</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> PR Landscapes & Decorating — All rights reserved.</p>
+      <p class="small">Designed for a playful brand. Replace images and text to personalise.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
